@@ -1,0 +1,177 @@
+@font-face {
+  font-family: Chancery Uralic;
+  src: url('/fonts/chancery-uralic.ttf') format("truetype");
+  font-style: italic;/*  src: url('/fonts/chancery-uralic.eot');*/
+}
+@font-face {
+  font-family: Gothic Uralic;
+  src: url('/fonts/gothic-uralic.ttf') format("truetype");/*  src: url('/fonts/gothic-uralic.eot');*/
+}
+@font-face {
+  font-family: Gothic Uralic;
+  src: url('/fonts/gothic-bold-uralic.ttf') format("truetype");
+  font-weight: bold;/*  src: url('/fonts/gothic-bold-uralic.eot');*/
+}
+@font-face {
+  font-family: Palladio Uralic;
+  src: url('/fonts/palladio-uralic.ttf') format("truetype");/*  src: url('/fonts/palladio-uralic.eot');*/
+}
+@font-face {
+  font-family: Palladio Uralic;
+  src: url('/fonts/palladio-bold-uralic.ttf') format("truetype");
+  font-weight: bold;/*  src: url('/fonts/palladio-bold-uralic.eot');*/
+}
+@font-face {
+  font-family: Palladio Uralic;
+  src: url('/fonts/palladio-italic-uralic.ttf') format("truetype");
+  font-style: italic;/*  src: url('/fonts/palladio-italic-uralic.eot');*/
+}
+html,
+body,
+blockquote,
+p,
+h1,
+h2,
+h3,
+h4,
+div,
+dd,
+dt,
+dl,
+ul,
+ol,
+li,
+fieldset,
+footer,
+header,
+aside,
+article,
+section,
+input,
+select {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+:focus {
+  outline: 0;
+}
+img {
+  float: none;
+  margin: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+a {
+  color: darkgoldenrod;
+}
+a img {
+  border: 0 none transparent !important;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+html {
+  background: #120a06 url(../img/bottom.png) bottom repeat-x;
+  min-height: 100%;
+}
+body {
+  background: url(../img/top.png) top repeat-x;
+  letter-spacing: 0.02em;
+}
+#wrapper {
+  margin: 0 auto;
+}
+header {
+  padding: 1.5em 0 2em;
+  text-shadow: .05em .05em .1em #000;
+}
+h1 {
+  color: #8a781e;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Palladio Uralic', sans-serif;
+}
+h2 {
+  color: #847214;
+  font-style: italic;
+  font-weight: normal;
+  font-family: 'Palladio Uralic', sans-serif;
+}
+article {
+  color: #e6e2c2;
+  font: italic 2.2em/1.55em 'Chancery Uralic', serif;
+}
+article footer {
+  margin-top: 0.4em;
+  margin-left: -1.175em;
+  font-size: 0.8em;
+  color: #aaa;
+}
+.fire {
+  text-shadow: 0 0 0.2em white, 0 -0.1em 0.2em #ffff33, 0.1em -0.25em 0.3em #ffdd33, -0.1em -0.35em 0.6em #ff8800, 0.1em -0.6em 1em #ff2200, 0.3em -0.6em 0.8em #ff4411;
+  -webkit-text-shadow: 0 0 0.2em white, 0 -0.1em 0.2em #ffff33, 0.1em -0.25em 0.3em #ffdd33, -0.1em -0.35em 0.6em #ff8800, 0.1em -0.6em 1em #ff2200, 0.3em -0.6em 0.8em #ff4411;
+}
+.shore {
+  color: #6b4;
+  font: italic bold 0.85em Georgia, serif;
+  position: relative;
+}
+.shore span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1.5em;
+  background: url(../img/shore.png);
+  top: 0;
+  left: 0;
+}
+.air {
+  color: #f0f5f4;
+  text-shadow: -0.25em 0.05em 0.2em #eeeeee, 0.25em 0.05em 0.2em #eeeeee;
+  -webkit-text-shadow: -0.25em 0.05em 0.2em #eeeeee, 0.25em 0.05em 0.2em #eeeeee;
+}
+.sea {
+  color: #17e;
+}
+.worlds {
+  text-shadow: 0.5em -0.7em 0.1em #440077, -0.2em -0.4em 0.1em #551100, 0.4em -0.2em 0.1em #112277, 0.3em 0.4em 0.1em #006633, -0.25em 0.2em 0.1em #777700, -0.5em 0.7em 0.1em #005555;
+  -webkit-text-shadow: 0.5em -0.7em 0.1em #440077, -0.2em -0.4em 0.1em #551100, 0.4em -0.2em 0.1em #112277, 0.3em 0.4em 0.1em #006633, -0.25em 0.2em 0.1em #777700, -0.5em 0.7em 0.1em #005555;
+}
+.evil {
+  color: #e8e4d0;
+  text-shadow: 0 0 .175em #b00;
+}
